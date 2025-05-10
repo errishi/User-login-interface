@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', 'sans-serif';
+    background-image: url(assets/beautiful-thunbergia-grandiflora-flowers-garden-common-names-include-bengal-clock-vine_484521-3642.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.box{
+    width: 300px;
+    height: 350px;
+    border: 2px solid blueviolet;
+}
+.container{
+    position: relative;
+    top: 140px;
+    left: 40%;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px black solid;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.login{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+h1{
+    color: black;
+    font-size: 22px;
+}
+
+.icon{
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.icon i{
+    width: 20px;
+}
+
+.form_input{
+    margin-top: 15px;
+    height: 26px;
+    width: 193px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.remember{
+    font-size: 12px;
+    text-align: center;
+    margin-left: -140px;
+    margin-top: 26px;
+}
+
+.forget{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 137px;
+    margin-top: -17px;
+}
+
+.forget a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    border: 2px solid #2294ed;
+    background-color: #2294ed;
+    color: white;
+    position: relative;
+    left: 13%;
+    height: 25px;
+    width: 220px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 21px;
+    font-weight: 700;
+    box-shadow: 0 0 2px #577592;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.SignButton{
+    border: 2px solid #2294ed;
+    background-color: #eff0f1;
+    color: rgb(9, 9, 9);
+    position: relative;
+    left: 13%;
+    height: 27px;
+    width: 220px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 21px;
+    font-weight: 700;
+    box-shadow: 0 0 2px #577592;
+    margin-top: 14px;
+    cursor: pointer;
+}
